@@ -19,23 +19,16 @@ This paper surveyed and evaluated four different approaches (Twin Deep Determini
 
 ## Contents:
 * 
-* An example video of the (partially) converged agent playing Gravitar, achieving a score of 5050. This episode was not an anomaly nor an unusual result (see graph).
-* Training logs for statistical analysis or plotting of data.
+* An video of the agent
 * A graph of the training scores over time. 
-* 
 
 
 ## Results:
+> The left chart shows my personalised log data relative to everyone else giving your convergence rank of 100.0%. The right chart shows the convergence ranks of all agents, with monotonically increasing high scores - otherwise the visualisation is too noisy to see anything.
+  > ![Training graph](convergent_graph.png?raw=true "Convergence Graph")
 
-### Demo video (taken from my [portfolio page](https://github.com/shadowbourne)):
-  >![Gifdemo2](https://user-images.githubusercontent.com/18665030/136660504-c89f9c89-41d3-4070-982f-23473bda3fcb.gif)
-  >
-  > We were tasked with creating a Reinforcement Learning agent to play the notoriously difficult Gravitar from the Atari-57 suite. I therefore decided to look for the current state-of-the-art Reinforcement Learning model for Atari ([R2D2](https://openreview.net/pdf?id=r1lyTjAqYX)) and re-created it to the best I could with my limited hardware. I produced the best agent in the class, and my convergence graph was used as exemplar feedback to the cohort.
+### Video of Agent:
+  >![Gifdemo2](https://github.com/Lauren-Stumpf/Reinforcement_Learning_Coursework/blob/main/bipedal_walker_score%3D330.gif)
+  
 
-
-### Training graph of mean scores (rolling average over past 100 episodes):
-![Training graph](training-graph.png?raw=true "Training graph")
-**Note:** This graph was selected as the best in the cohort and included in the class feedback as one of two exemplar graphs.
-
-As is clear from the graph, the agent has not yet fully converged.
 
