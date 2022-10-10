@@ -28,7 +28,7 @@ This paper surveyed and evaluated four different approaches (Twin Deep Determini
 
 
 ## Results:
-> The left chart shows my personalised log data relative to everyone else giving your convergence rank of 100.0%. The right chart shows the convergence ranks of all agents, with monotonically increasing high scores - otherwise the visualisation is too noisy to see anything.
+> The left chart shows my personalised log data relative to everyone else giving me a convergence rank of 100.0%. The right chart shows the convergence ranks of all agents, with monotonically increasing high scores - otherwise the visualisation is too noisy to see anything.
   > ![Training graph](convergent_graph.png?raw=true "Convergence Graph")
 
 
